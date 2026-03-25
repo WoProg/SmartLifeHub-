@@ -1,0 +1,1 @@
+import{t as e}from"./http-lpEfWZn-.js";function t(t){return e.get(`/admin/users`,{params:t})}function n(t){return e.post(`/admin/users/${t}/toggle-status`)}function r(t){return e.get(`/admin/shops`,{params:t})}function i(t){return e.get(`/admin/orders`,{params:t})}function a(){return e.get(`/admin/stats/overview`)}export{n as a,t as i,a as n,r,i as t};
